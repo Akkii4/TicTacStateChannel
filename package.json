@@ -1,0 +1,19 @@
+{
+  "name": "tictacstate-channel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-util": "^6.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "web3": "^1.2.1"
+  },
+  "scripts": {
+    "player1": "nodemon --watch dev -e js server.js 3001 0x91a73c89055dd4c6e9f8c20327af6e7ebe4a2282eca0d6e747794e180057b271 http://localhost:3001",
+    "player2": "nodemon --watch dev -e js server.js 3002 0xeea6c8ed278f3b49ac997426e3fc7359ac77e11c8d3aab79ec36095740572fb3 http://localhost:3002"
+  },
+  "author": "",
+  "license": "ISC"
+}
